@@ -1,7 +1,7 @@
 # nginx-python3-gunicorn-flask-ubuntu-latest
 
 FROM ubuntu:latest
-MAINTAINER Tony Tan <tonyta198211n@gmail.com>
+MAINTAINER Tony Tan <tonytan198211@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
