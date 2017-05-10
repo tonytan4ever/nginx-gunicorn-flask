@@ -1,8 +1,8 @@
 {
   "containerDefinitions": [
     {
-      "name": "hello",
-      "image": "danriti/nginx-gunicorn-flask",
+      "name": "base_image",
+      "image": "tonytan4ever/nginx-gunicorn-ubuntu-python3-latest",
       "essential": true,
       "memory": 500,
       "cpu": 10,
@@ -14,5 +14,5 @@
       ]
     }
   ],
-  "family": "hello_world"
+  "family": "base_images"
 }
